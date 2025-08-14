@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Anki FlashCard Generation</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #333; }
+        h1, h2 { color: #1a1a1a; }
+        h1 { border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        h2 { margin-top: 25px; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin-bottom: 10px; }
+        strong { color: #0056b3; }
+        a { color: #0056b3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for "Anki FlashCard Generation"</h1>
+
+    <p>We are committed to protecting your privacy. This privacy policy explains how our extension, "Anki FlashCard Generation", collects, uses, and protects your information.</p>
+
+    <h2>1. Data Collected and Purpose of Use</h2>
+    <p>This extension is designed to be an effective tool for creating flashcards from text you select. To perform this function, we collect the following types of data:</p>
+    <ul>
+        <li><strong>Highlighted Text:</strong> Our extension collects the text you highlight on a webpage. This data is only collected when you actively click the extension's icon.</li>
+        <li><strong>Purpose:</strong> This data is sent to our server to be processed by a large language model (LLM), which in turn generates a corresponding flashcard for your selected content.</li>
+    </ul>
+
+    <h2>2. Data Sharing and Storage</h2>
+    <p>We take your privacy and data security seriously. The data collected is handled as follows:</p>
+    <ul>
+        <li><strong>Data Sharing:</strong>
+            <ul>
+                <li>The highlighted text is sent to our backend server (`http://103.133.224.14:8000`) for processing. This data is processed anonymously and is not linked to any of your personal identifying information.</li>
+                <li>The extension also communicates with AnkiConnect, a local API running on your computer (`http://localhost:8765`), to add flashcards to your personal Anki collection. This communication is entirely local and does not involve our server.</li>
+            </ul>
+        </li>
+        <li><strong>Data Storage:</strong>
+            <ul>
+                <li><strong>On Your Browser:</strong> The extension uses Chrome's local storage (`chrome.storage.local`) and sync storage (`chrome.storage.sync`) to store user settings (e.g., AnkiConnect URL, LLM preferences) and temporary data (e.g., flashcard content). This data is for your use only and is not shared with us.</li>
+                <li><strong>On Our Server:</strong> Our server employs a caching mechanism to store generated flashcards. The sole purpose is to improve response times for similar queries in the future. The cached data does not contain any user-identifying information.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>3. Commitment to Personal Data</h2>
+    <p>We strictly adhere to the following principles:</p>
+    <ul>
+        <li>We **do not** collect, store, or share any personally identifiable information (PII) such as your name, email address, Browse history, or any other sensitive data.</li>
+        <li>The data collected is used for a single purpose: to provide the core functionality of the extension.</li>
+        <li>We do not sell or transfer user data to any third parties.</li>
+    </ul>
+
+    <h2>4. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify users of any changes through the extension's listing page on the Chrome Web Store.</p>
+
+    <h2>5. Contact</h2>
+    <p>If you have any questions or concerns about this privacy policy, please contact us at <a href="mailto:uhoanglong123@gmail.com">uhoanglong123@gmail.com</a>.</p>
+
+</body>
+</html>
